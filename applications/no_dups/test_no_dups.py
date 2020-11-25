@@ -2,9 +2,7 @@ import unittest
 
 from no_dups import no_dups
 
-
 class TestNoDups(unittest.TestCase):
-
     def test_no_dups(self):
         x = no_dups("")
         self.assertTrue(x == "")
